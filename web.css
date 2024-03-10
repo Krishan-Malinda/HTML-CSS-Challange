@@ -28,14 +28,42 @@
 .searchIcon{
     height: 15px;
     width: 15px;
-    position: absolute;
-    left: 163px;
+    position: relative;
+    left: -18px;
     border-left: 1px solid rgb(145, 145, 145);
 }
 
-.news{
-    width: 25%;
+.redArea{
+    background-color: rgb(172, 18, 18);
     position: relative;
     float: left;
-    background-color: aqua;;
+    width: 100%;
+    height: 10%;
+}
+
+.news{
+    position: relative;
+    float: left;
+    font-size: 30px;
+    margin-left: 25px;
+    color: white;
+}
+
+.locationImg{
+    position: relative;
+    float: right;
+    margin: 27px 25px 0px 0px;
+    filter: grayscale(100%) invert(100%) brightness(200%);
+}
+
+.redNavi{
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    margin: 1px;
+    padding: 5px 10px;
+    background-color: rgb(161, 12, 12);
 }
