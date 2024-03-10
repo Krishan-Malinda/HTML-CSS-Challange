@@ -1,14 +1,41 @@
 .bbc{
     color: antiquewhite;
     background-color: rgb(36, 33, 32);
+}
+
+.navi{
     height: 30px;
     width: 30px;
     position: relative;
     float: left;
-
     margin: 2px;
-
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.naviBtn{
+    width: 70px;
+    border-left: 2px solid rgb(187, 187, 187);
+}
+
+.search{
+    justify-content: left;
+    width: 200px;
+    border-left: 2px solid rgb(187, 187, 187);
+}
+
+.searchIcon{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 163px;
+    border-left: 1px solid rgb(145, 145, 145);
+}
+
+.news{
+    width: 25%;
+    position: relative;
+    float: left;
+    background-color: aqua;;
 }
