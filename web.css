@@ -69,16 +69,46 @@
     background-color: rgb(161, 12, 12);
 }
 
-.fstDiv{
+.wlcontent{
+    height: 110px;
+    width: auto;
+    
+}
+
+.rcontentImg{
+    position: relative;
+    float: left;
+    margin: 19px 0px;
+    width: 110px;
+}
+
+#leftDiv{
+    position: relative;
+    float: left;
     border-right: 1px solid gray;
-    width: 50%;
-    height: 250px;
+    width: 65%;
+    height: 280px;
+}
+
+#rightDiv{
+    position: relative;
+    float: right;
+    margin-right: 60px;
+    height: auto;
 }
 
 #asdaImg{
     position: relative;
     float: right;;
-    margin-right: 40px;
+    margin-right: 70px;
     height:203px;
     width: 350px;
+}
+
+.rightTextDiv{
+    position: relative;
+    float: right;
+    width:200px;
+    padding: 0px 0px 0px 15px;
+    height: 100px;
 }
